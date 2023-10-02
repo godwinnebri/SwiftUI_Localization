@@ -1,0 +1,9 @@
+/* 
+  Localizable.strings
+  SwiftUiLocalization
+
+  Created by Godwin IE on 02/10/2023.
+  
+*/
+
+"ContentView.WelcomeMessage" = "Hello, World!";
