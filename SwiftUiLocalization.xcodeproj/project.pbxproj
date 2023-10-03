@@ -13,6 +13,7 @@
 		CECB94142ACAF79E00DE9EFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CECB94132ACAF79E00DE9EFD /* Assets.xcassets */; };
 		CECB94172ACAF79E00DE9EFD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CECB94162ACAF79E00DE9EFD /* Preview Assets.xcassets */; };
 		CED5EB0A2ACB84320076D332 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = CED5EB0C2ACB84320076D332 /* Localizable.strings */; };
+		CED5EB132ACB96080076D332 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED5EB122ACB96080076D332 /* StringExtensions.swift */; };
 		DB5A81F4332BAC2D34559454 /* Pods_SwiftUiLocalization.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DE401CCE6AF54A2DE7BAC0E /* Pods_SwiftUiLocalization.framework */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +28,7 @@
 		CECB94162ACAF79E00DE9EFD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CED5EB0B2ACB84320076D332 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		CED5EB0D2ACB84760076D332 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		CED5EB122ACB96080076D332 /* StringExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
 		D5CFC9C2828B2ABC42399172 /* Pods-SwiftUiLocalization.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUiLocalization.debug.xcconfig"; path = "Target Support Files/Pods-SwiftUiLocalization/Pods-SwiftUiLocalization.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -80,6 +82,7 @@
 		CECB940E2ACAF79800DE9EFD /* SwiftUiLocalization */ = {
 			isa = PBXGroup;
 			children = (
+				CED5EB0E2ACB95830076D332 /* Code */,
 				CED5EB062ACB81970076D332 /* SupportingFiles */,
 				CE59CA862ACB05FF009A2DBB /* .swiftlint.yml */,
 				CECB940F2ACAF79800DE9EFD /* SwiftUiLocalizationApp.swift */,
@@ -112,6 +115,30 @@
 				CED5EB0C2ACB84320076D332 /* Localizable.strings */,
 			);
 			path = Localization;
+			sourceTree = "<group>";
+		};
+		CED5EB0E2ACB95830076D332 /* Code */ = {
+			isa = PBXGroup;
+			children = (
+				CED5EB102ACB95C70076D332 /* Utilities */,
+			);
+			path = Code;
+			sourceTree = "<group>";
+		};
+		CED5EB102ACB95C70076D332 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				CED5EB112ACB95D50076D332 /* Extensions */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		CED5EB112ACB95D50076D332 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				CED5EB122ACB96080076D332 /* StringExtensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CED5EB132ACB96080076D332 /* StringExtensions.swift in Sources */,
 				CECB94122ACAF79800DE9EFD /* ContentView.swift in Sources */,
 				CECB94102ACAF79800DE9EFD /* SwiftUiLocalizationApp.swift in Sources */,
 			);

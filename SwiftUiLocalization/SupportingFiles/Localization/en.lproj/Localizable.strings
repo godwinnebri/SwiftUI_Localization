@@ -6,4 +6,4 @@
   
 */
 
-"ContentView.WelcomeMessage" = "Hello, World!";
+"ContentView.WelcomeMessage" = "Good morning, %@!";
